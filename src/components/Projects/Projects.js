@@ -47,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="Flappy Bird"
               description="Flappy Bird is a simple, fun, and addictive game where the player controls a bird, attempting to fly between columns of green pipes without hitting them. This version of Flappy Bird is built using JavaScript, CSS, and HTML.Simple and intuitive controls, Game over screen, responsive design."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/Ayush59699/Flappy_Bird"
             />
           </Col>
 
