@@ -7,7 +7,7 @@
 
 My personal portfolio <a href="/" target="_blank">Ayush.S </a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-This project was built using these technologies.
+This project was built usin these technologies.
 
 - React.js
 - Node.js
@@ -15,6 +15,7 @@ This project was built using these technologies.
 - CSS3
 - VsCode
 - Vercel
+- Github Pages
 
 ## Features
 
