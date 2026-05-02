@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 import {
   AiFillGithub,
 } from "react-icons/ai";
@@ -75,7 +75,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <SiLeetcode />
-
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://codeforces.com/profile/Ayush687141"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiCodeforces />
                 </a>
               </li>
             </ul>

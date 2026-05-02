@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 import {
   AiFillGithub,
 } from "react-icons/ai";
@@ -50,6 +50,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <SiLeetcode />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://codeforces.com/profile/Ayush687141"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiCodeforces />
               </a>
             </li>
           </ul>
