@@ -11,9 +11,11 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ayush Singh </span>
             from <span className="purple"> Lucknow, India.</span>
             <br />
-            I am currently pursuing B.S. in Data Science and programming Online Degree from IIT Madras.
+            I am currently pursuing my Masters of Computer Applications at Vellore Institute of Technology, Vellore.
             <br />
-            Along with this, I am also in my 3rd year of Bachelors of Computer Application from University of Lucknow.
+            I have completed my Bachelors of Computer Application from the University of Lucknow.
+            <br />
+            Along with this, I am also pursuing a B.S. in Data Science and Programming (Online Degree) from IIT Madras.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

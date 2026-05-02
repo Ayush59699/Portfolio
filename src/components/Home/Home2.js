@@ -18,37 +18,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C, Javascript, Java and Python. </b>
-              </i>
+              I approach software engineering with the <b className="purple">discipline of the army</b> and the mindset of a <b className="purple">problem solver</b>.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Data Science.
-                </b>
-              </i>
+              Consistency, structure, and execution define how I work. Just like in the military, I believe in showing up every day, refining my skills, and performing under pressure. Competitive programming on <b className="purple">Codeforces</b> has trained me to think critically, break down complex problems, and deliver efficient solutions within constraints.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I don’t just write code — <i><b className="purple">I solve problems.</b></i>
+              <br />
+              <br />
+              My experience in <b className="purple">Data Structures and Algorithms</b> allows me to approach challenges with clarity and precision, while my projects reflect my ability to build <b className="purple">scalable and practical systems</b>. From designing efficient algorithms to developing real-world applications, I focus on impact over noise.
+              <br />
+              <br />
+              Discipline builds consistency. Problem-solving builds intelligence. <i><b className="purple">I build both.</b></i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

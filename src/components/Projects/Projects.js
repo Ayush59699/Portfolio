@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-//import leaf from "../../Assets/Projects/leaf.png";
-//import emotion from "../../Assets/Projects/emotion.png";
+import leaf from "../../Assets/Projects/leaf.png";
+import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 //import suicide from "../../Assets/Projects/suicide.png";
@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Music_App"
-              description="Personal Music streaming platform to listen high quality music, create playlists, mark favourites, rate,etc. Build with Python, Flask, Sqlite3 and Bootstrap. Have features which allows User/Admins for dashboard controls and analytics on songs as well."
-              ghLink="https://github.com/Ayush59699/Music_App"
+              title="AI-Powered Duplicate File Detection System"
+              description="Built a multi-modal deduplication engine for images, documents, audio, and video using CLIP embeddings, SBERT semantic search, and Chromaprint fingerprinting. Designed a layered pipeline reducing neural inference calls by ~70% via fast pre-filtering. Integrated FAISS ANN search enabling real-time similarity queries across 100k+ files in sub-linear time."
+              ghLink="https://github.com/Ayush59699"
             />
           </Col>
 
@@ -35,23 +35,31 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="IESCP"
-              description="A platform for Influencers and Sponsors to interact with each other and work together on projects, campaigns. Creating relationsips, building trust, helping deliver products and services. Influencer Engagement And Sponsorship Coordination Platform."
-              ghLink="https://github.com/Ayush59699/Influencer-Engagement-and-Sponsorship-Coordination-Platform"
+              title="Payment Processing Microservice"
+              description="Built an Idempotency Engine using Redis ensuring every payment request is processed exactly once; implemented Saga Pattern across Order, Payment, and Inventory services. Integrated Circuit Breaker for gateway downtime handling and Webhook Handler with retry logic. Maintained immutable Audit Logs per transaction state change."
+              ghLink="https://github.com/Ayush59699/Distributed_Payment_Microservice"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={leaf}
               isBlog={false}
-              title="Flappy Bird"
-              description="Flappy Bird is a simple, fun, and addictive game where the player controls a bird, attempting to fly between columns of green pipes without hitting them. This version of Flappy Bird is built using JavaScript, CSS, and HTML.Simple and intuitive controls, Game over screen, responsive design."
-              ghLink="https://github.com/Ayush59699/Flappy_Bird"
+              title="EV Demand Forecasting"
+              description="Engineered a time-series data pipeline with data preprocessing and feature engineering on macroeconomic and EV pricing datasets; designed a hybrid CNN-LSTM-Attention model. Validated robustness via 10-fold cross-validation and hyperparameter optimization, improving prediction accuracy over baseline LSTM."
+              ghLink="https://github.com/Ayush59699"
             />
           </Col>
 
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Local RAG QA System"
+              description="Built an offline RAG pipeline using ChromaDB for low-latency semantic retrieval of domain documents. Implemented LangChain Multi-Query Retriever to improve context recall over standard similarity search."
+              ghLink="https://github.com/Ayush59699"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
